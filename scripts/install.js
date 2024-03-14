@@ -24,6 +24,7 @@ const { getAddonName, getDotaPath } = require("./utils");
                 console.log(`Skipping '${sourcePath}' since it is already linked`);
                 continue;
             } else {
+                console.log(`testpushcode`);
                 throw new Error(`'${targetPath}' is already linked to another directory`);
             }
         }
