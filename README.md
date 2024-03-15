@@ -37,3 +37,5 @@ After that you can press `Ctrl+Shift+B` in VSCode or run `npm run dev` command i
 ## Continuous Integration
 
 This template includes a [GitHub Actions](https://github.com/features/actions) [workflow](.github/workflows/ci.yml) that builds your custom game on every commit and fails when there are type errors.
+
+we will test github push and pull
