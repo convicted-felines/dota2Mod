@@ -1,5 +1,5 @@
 {
-    "name": "",
+    "name": "测试1",
     "private": true,
     "scripts": {
         "postinstall": "node scripts/install.js",
