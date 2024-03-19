@@ -11,6 +11,6 @@ export class typescript_skywrath_mage_arcane_seal extends BaseAbility{
 
         target.EmitSound(this.sound_cast);
 
-        target.AddNewModifier(this.GetCaster(),this,modifier_typescript_ancient_seal,{duration:seal_duration});
+        target.AddNewModifier(this.GetCaster(),this,modifier_typescript_ancient_seal.name,{duration:seal_duration});
     }
 }
