@@ -39,4 +39,15 @@ export class modifier_typescript_ancient_seal extends BaseModifier {
         return {[ModifierState.SILENCED]: true}
     }
 
+    DeclareFunctions(): ModifierFunction[] {
+        return [ModifierFunction.MAGICAL_RESISTANCE_BONUS];
+    }
+
+    GetModifierMagicalResistanceBonus() {
+        return this.resist_debuff ?? 0;
+    }
+
+    
 }
+
+
